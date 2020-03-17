@@ -14,7 +14,7 @@ namespace Lab2
                 string[] arr;
             try
             {
-                arr = Console.ReadLine().Split(' ');
+                arr = Console.ReadLine().Replace(',', '.').Split(' ');
                 n = Convert.ToInt32(arr[0]);
                 x = Convert.ToDouble(arr[1]);
             }
@@ -28,9 +28,18 @@ namespace Lab2
         static double Summary(double n, double x)
         {
             double sum = 0;
+            double temp = 1;
             for(int i = 0; i <= n; i++)
             {
-                sum += ((2*i + 1) * Math.Pow(x, 2*i)) / Fact(i);
+                if(i == 0)
+                {
+                    temp = 1;
+                }
+                else
+                {
+                    temp *= i;
+                }
+                sum += ((2*i + 1) * Math.Pow(x, 2*i)) / temp;
             }
             return sum;
         }
@@ -41,20 +50,6 @@ namespace Lab2
             System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
             Enter_of_values(out double n, out double x);
             Console.WriteLine(Summary(n, x));
-        }
-
-        static Double Fact(Double Digit)
-        {
-            Double temp = Digit;
-            if (Digit == 0) return 1;
-            else
-            {
-                for (int i = 1; i < Digit; i++)
-                {
-                    temp *= i;
-                }
-                return temp;
-            }
         }
     }
 }
