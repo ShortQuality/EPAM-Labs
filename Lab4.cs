@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
                                 //Solution of 7 variant of KMV-cycles tasks.
 namespace Lab4
@@ -14,14 +15,17 @@ namespace Lab4
             try
             {
                 Console.WriteLine("Enter values: ");
-                string[] temp_arr = Console.ReadLine().Split(' ');
+                string[] temp_arr = Console.ReadLine().Replace(',','.').Split(' ');
+
                 x = Convert.ToDouble(temp_arr[0]);
                 accuracy = Convert.ToDouble(temp_arr[1]);
             }
-            catch
+            catch(Exception ex)
             {
                 x = accuracy = 0;
+                //MessageBox.Show(ex.Message);
                 Console.WriteLine("Incorrect enter");
+                Console.WriteLine(ex.Message);
                 Values_Entering(out x, out accuracy);
             }
         }
@@ -30,26 +34,24 @@ namespace Lab4
         {
             double sum = 0;
             int n = 0;
-            while ( Math.Abs(Math.Pow(x, 2 * n) / Fact(2 * n)) > accuracy)
+            double temp = 1;
+            double curr = 1;
+            while (Math.Abs(curr) > accuracy)
             {
-                sum += Math.Pow(x, 2 * n) / Fact(2 * n);
+                if (n == 0)
+                {
+                    temp = 1;
+                }
+                else
+                {
+                    temp *= ((2 * n) * (2 * n - 1));
+                }
+                curr = Math.Pow(x, 2 * n) / temp;
+                if (curr < accuracy) break;
+                sum += Math.Pow(x, 2 * n) / temp;
                 n++;
             }
             return sum;
-        }
-
-        static Double Fact(Double Digit)
-        {
-            Double temp = Digit;
-            if (Digit == 0) return 1;
-            else
-            {
-                for (int i = 1; i < Digit; i++)
-                {
-                    temp *= i;
-                }
-                return temp;
-            }
         }
 
         static void Main(string[] args)
