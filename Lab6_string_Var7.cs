@@ -18,9 +18,15 @@ namespace Lab6_string_Var7
     {
         static void EnteringMethodSelection(out char enteringMethod)
         {
-
-            Console.WriteLine("What method of entering you waant? Command Line(0)/File(1)");
-            enteringMethod = Convert.ToChar(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("What method of entering you want? Command Line(0)/File(1)");
+                enteringMethod = Convert.ToChar(Console.ReadLine());
+            }
+            catch
+            {
+                enteringMethod = Convert.ToChar(2);
+            }
         }
 
         static void Text_F_entering(out string[] tempLine, out int n, out int k)
@@ -71,7 +77,7 @@ namespace Lab6_string_Var7
             {
                 int count = 0;
                 string s;
-                string[] tempLine_2; 
+                string[] tempLine_2;
                 Console.WriteLine("Enter value of word length:");
                 k = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter strings:");
@@ -142,6 +148,10 @@ namespace Lab6_string_Var7
                 Text_F_entering(out string[] tempLine, out int n, out int k);
                 int answer = WordCounter(tempLine, n, k);
                 Text_F_output(answer);
+            }
+            else
+            {
+                Console.WriteLine("Incorrect Method!");
             }
         }
     }
