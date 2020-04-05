@@ -1,0 +1,7 @@
+D:\Программирование\С#\EPAM\Labs\Lab8_Matrix\Lab8_Matrix\bin\Debug\Lab8_Matrix.exe.config
+D:\Программирование\С#\EPAM\Labs\Lab8_Matrix\Lab8_Matrix\bin\Debug\Lab8_Matrix.exe
+D:\Программирование\С#\EPAM\Labs\Lab8_Matrix\Lab8_Matrix\bin\Debug\Lab8_Matrix.pdb
+D:\Программирование\С#\EPAM\Labs\Lab8_Matrix\Lab8_Matrix\obj\Debug\Lab8_Matrix.csprojAssemblyReference.cache
+D:\Программирование\С#\EPAM\Labs\Lab8_Matrix\Lab8_Matrix\obj\Debug\Lab8_Matrix.csproj.CoreCompileInputs.cache
+D:\Программирование\С#\EPAM\Labs\Lab8_Matrix\Lab8_Matrix\obj\Debug\Lab8_Matrix.exe
+D:\Программирование\С#\EPAM\Labs\Lab8_Matrix\Lab8_Matrix\obj\Debug\Lab8_Matrix.pdb
