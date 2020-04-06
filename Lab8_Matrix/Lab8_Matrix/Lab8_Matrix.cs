@@ -61,7 +61,9 @@ namespace Lab8_Matrix
                             if (priority[0] == "1")
                             {
                                 Matrix Sum = new Matrix(m1, n1);
+
                                 Sum = matrix1 + matrix2;
+
                                 InformationOut("Sum of matrix: ", Sum);
                             }
                             else if (priority[0] == "2")
@@ -232,8 +234,8 @@ namespace Lab8_Matrix
 
         internal static void InformationOut(string outputString, Matrix matrix)
         {
-            int m_Dimension = matrix.Length;
-            int n_Dimension = matrix.Height;
+            int m_Dimension = matrix.Height;
+            int n_Dimension = matrix.Length;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\n" + outputString + "\n=======================\n");
             Console.ResetColor();
@@ -559,8 +561,6 @@ namespace Lab8_Matrix
                     MyException ex = new MyException("\nThe height of first matrix is not equal to the width of the second matrix!!!\n");
                     ex = new MyException("Dimensions of first matrix: " + m1_Dimension + " " + n1_Dimension + "  \n");
                     ex = new MyException("Dimensions of second matrix: " + m2_Dimension + " " + n2_Dimension + "  \n");
-                    //Matrix result_Matrix = new Matrix(m1_Dimension, n2_Dimension);
-                    //return result_Matrix.GetEmpty();
                     throw ex;
                 }
 
