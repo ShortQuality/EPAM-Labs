@@ -1,0 +1,14 @@
+D:\Программирование\С#\EPAM\Labs\Lab9_Vector\Lab9_Vector\bin\Debug\Lab9_Vector.exe.config
+D:\Программирование\С#\EPAM\Labs\Lab9_Vector\Lab9_Vector\bin\Debug\Lab9_Vector.exe
+D:\Программирование\С#\EPAM\Labs\Lab9_Vector\Lab9_Vector\bin\Debug\Lab9_Vector.pdb
+D:\Программирование\С#\EPAM\Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.csprojAssemblyReference.cache
+D:\Программирование\С#\EPAM\Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.csproj.CoreCompileInputs.cache
+D:\Программирование\С#\EPAM\Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.exe
+D:\Программирование\С#\EPAM\Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.pdb
+D:\Программирование\С#\EPAM\Git\EPAM-Labs\Lab9_Vector\Lab9_Vector\bin\Debug\Lab9_Vector.exe.config
+D:\Программирование\С#\EPAM\Git\EPAM-Labs\Lab9_Vector\Lab9_Vector\bin\Debug\Lab9_Vector.exe
+D:\Программирование\С#\EPAM\Git\EPAM-Labs\Lab9_Vector\Lab9_Vector\bin\Debug\Lab9_Vector.pdb
+D:\Программирование\С#\EPAM\Git\EPAM-Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.csprojAssemblyReference.cache
+D:\Программирование\С#\EPAM\Git\EPAM-Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.csproj.CoreCompileInputs.cache
+D:\Программирование\С#\EPAM\Git\EPAM-Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.exe
+D:\Программирование\С#\EPAM\Git\EPAM-Labs\Lab9_Vector\Lab9_Vector\obj\Debug\Lab9_Vector.pdb
