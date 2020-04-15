@@ -1,0 +1,7 @@
+Dim x As Integer
+Dim y As Double = 4.0
+Dim s As String = "Hello"
+
+Console.WriteLine(y)
+
+Dim nums(5) As Integer

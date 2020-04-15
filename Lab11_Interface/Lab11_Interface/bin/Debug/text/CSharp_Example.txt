@@ -1,0 +1,7 @@
+int x;
+double y = 4.0;
+string s = "Hello";
+
+Console.WriteLine(y);
+
+int[] nums = new int[5];

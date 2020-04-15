@@ -1,0 +1,7 @@
+D:\Программирование\С#\EPAM\Labs\Lab11_Interface\Lab11_Interface\bin\Debug\Lab11_Interface.exe.config
+D:\Программирование\С#\EPAM\Labs\Lab11_Interface\Lab11_Interface\bin\Debug\Lab11_Interface.exe
+D:\Программирование\С#\EPAM\Labs\Lab11_Interface\Lab11_Interface\bin\Debug\Lab11_Interface.pdb
+D:\Программирование\С#\EPAM\Labs\Lab11_Interface\Lab11_Interface\obj\Debug\Lab11_Interface.csprojAssemblyReference.cache
+D:\Программирование\С#\EPAM\Labs\Lab11_Interface\Lab11_Interface\obj\Debug\Lab11_Interface.csproj.CoreCompileInputs.cache
+D:\Программирование\С#\EPAM\Labs\Lab11_Interface\Lab11_Interface\obj\Debug\Lab11_Interface.exe
+D:\Программирование\С#\EPAM\Labs\Lab11_Interface\Lab11_Interface\obj\Debug\Lab11_Interface.pdb
