@@ -1,0 +1,7 @@
+D:\Программирование\С#\EPAM\Labs\Lab13_Generics\Lab13_Generics\obj\Debug\Lab13_Generics.csprojAssemblyReference.cache
+D:\Программирование\С#\EPAM\Labs\Lab13_Generics\Lab13_Generics\obj\Debug\Lab13_Generics.csproj.CoreCompileInputs.cache
+D:\Программирование\С#\EPAM\Labs\Lab13_Generics\Lab13_Generics\bin\Debug\Lab13_Generics.exe.config
+D:\Программирование\С#\EPAM\Labs\Lab13_Generics\Lab13_Generics\bin\Debug\Lab13_Generics.exe
+D:\Программирование\С#\EPAM\Labs\Lab13_Generics\Lab13_Generics\bin\Debug\Lab13_Generics.pdb
+D:\Программирование\С#\EPAM\Labs\Lab13_Generics\Lab13_Generics\obj\Debug\Lab13_Generics.exe
+D:\Программирование\С#\EPAM\Labs\Lab13_Generics\Lab13_Generics\obj\Debug\Lab13_Generics.pdb

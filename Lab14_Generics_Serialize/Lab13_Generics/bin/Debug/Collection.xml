@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<CollectionTypeOfVector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <someList>
+    <Vector>
+      <x>4</x>
+      <y>55</y>
+      <z>67</z>
+    </Vector>
+    <Vector>
+      <x>98</x>
+      <y>0</y>
+      <z>36</z>
+    </Vector>
+    <Vector>
+      <x>96</x>
+      <y>61</y>
+      <z>59</z>
+    </Vector>
+    <Vector>
+      <x>81</x>
+      <y>96</y>
+      <z>57</z>
+    </Vector>
+  </someList>
+</CollectionTypeOfVector>

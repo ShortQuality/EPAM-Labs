@@ -1,0 +1,7 @@
+D:\Программирование\С#\EPAM\Labs\Lab14_Generics_Serialize\Lab13_Generics\obj\Debug\Lab14_Generics_Serialize.csproj.CoreCompileInputs.cache
+D:\Программирование\С#\EPAM\Labs\Lab14_Generics_Serialize\Lab13_Generics\bin\Debug\Lab14_Generics_Serialize.exe.config
+D:\Программирование\С#\EPAM\Labs\Lab14_Generics_Serialize\Lab13_Generics\bin\Debug\Lab14_Generics_Serialize.exe
+D:\Программирование\С#\EPAM\Labs\Lab14_Generics_Serialize\Lab13_Generics\bin\Debug\Lab14_Generics_Serialize.pdb
+D:\Программирование\С#\EPAM\Labs\Lab14_Generics_Serialize\Lab13_Generics\obj\Debug\Lab14_Generics_Serialize.exe
+D:\Программирование\С#\EPAM\Labs\Lab14_Generics_Serialize\Lab13_Generics\obj\Debug\Lab14_Generics_Serialize.pdb
+D:\Программирование\С#\EPAM\Labs\Lab14_Generics_Serialize\Lab13_Generics\obj\Debug\Lab14_Generics_Serialize.csprojAssemblyReference.cache
